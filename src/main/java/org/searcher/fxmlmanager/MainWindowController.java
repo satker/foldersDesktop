@@ -292,7 +292,7 @@ public class MainWindowController implements Initializable {
 
         private void enableAllElementsAfterSearch(int x) {
             Platform.runLater(() -> {
-                System.out.println(x / 2 + " сек.");
+                System.out.println(x / 2 + " sec.");
                 stopSearch.setDisable(true);
                 progressSearching.setVisible(false);
                 progressSearching.setProgress(0);
